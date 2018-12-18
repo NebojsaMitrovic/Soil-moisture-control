@@ -1,0 +1,437 @@
+h1 
+{
+	font-size: 3vw;
+	margin: 0;
+}
+h2 
+{
+	font-size: 2vw;
+	margin: 0;
+}
+h3
+{
+	font-size: 1.5vw;
+	margin: 0;
+}
+h4 
+{
+	font-size: 2vh;
+	margin: 0;
+}
+p 
+{
+	font-size: 2vmin;
+	margin: 0;
+}
+html
+{
+	min-height: 100%;
+}
+body
+{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(#555, #222);
+	background: -webkit-linear-gradient(#555, #222);
+	background: -o-linear-gradient(#555, #222);
+    background: -moz-linear-gradient(#555, #222);
+}
+header
+{
+	color: #fff;
+	background: linear-gradient(#4d94ff, #0047b3);
+	background: -webkit-linear-gradient(#4d94ff, #0047b3);
+	background: -o-linear-gradient(#4d94ff, #0047b3);
+	background: -moz-linear-gradient(#4d94ff, #0047b3);
+	margin: 0;
+	text-align: center;
+	padding: 1%
+}
+form
+{
+	margin: 0;
+}
+.odjava
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0.5%;
+	padding: 0.25% 1%;
+	background: linear-gradient(#3385ff, #003d99);
+	background: -webkit-linear-gradient(#3385ff, #003d99);
+	background: -o-linear-gradient(#3385ff, #003d99);
+	background: -moz-linear-gradient(#3385ff, #003d99);
+	color: #fff;
+	border: 0.25vmin outset #0047b3;
+	border-radius: 1vmin;
+	cursor: pointer;
+}
+.odjava:hover
+{
+	background: -webkit-linear-gradient(#3385ff, #003d99);
+	background: -o-linear-gradient(#3385ff, #003d99);
+    background: -moz-linear-gradient(#3385ff, #003d99);
+	background: linear-gradient(#3385ff, #003d99);
+	border: 0.25vmin inset #003d99;
+}
+.odjava-m
+{
+	background: #222;
+	color: #fff;
+	padding: 0.5% 2%;
+	border: 0.25vh solid white;
+	border-radius: 0.5vh;
+	cursor: pointer;
+	right: 0;
+	position: absolute;
+	margin: 0.5vh;
+}
+.odjava:hover-m
+{
+	border: 0.25vh inset #0047b3;
+}
+.tabela
+{ 
+	background: url("img/bg.png");
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 40em;
+}
+.tabela tr
+{
+
+	padding: 0;
+	margin: 0;
+}
+.tabela tr td
+{
+	border: 1vh outset #222;
+	padding: 0;
+	text-align: center;
+	color: white;
+	width: 33vh;
+	height: 39vh;
+}
+.tabela-m
+{ 
+	background: url("img/bg.png");
+	padding: 0;
+	margin: 0;
+	height: 85%;
+	width: 100%;
+}
+.tabela-m tr
+{
+	padding: 0;
+}
+.tabela-m tr td
+{
+	border: 0.5vh outset #222;
+	padding: 0;
+	text-align: center;
+	color: white;
+}
+.footer-m
+{
+	color: #fff;
+	margin: 0;
+	padding: 1.25%;
+	background: #0047b3;
+	border-top: 1px solid white;
+}
+footer
+{
+	color: #fff;
+	margin: 0;
+	padding: 0% 1%;
+}
+@font-face
+{
+	font-family: 'digital-7-mono';
+	src: url('fonts/digital-7-mono.eot');
+	src: url('fonts/digital-7-mono.ttf');
+}
+#sat
+{
+	text-align: center;
+	color: #4d94ff;
+	padding: 0 2%;
+}
+#sat p
+{
+	font-family: 'digital-7-mono';
+	font-size: 8vh;
+	text-shadow: 0.25vh 0.25vh 1vh #0047b3, -0.25vh -0.25vh 1vh #0047b3;
+}
+#sat h1
+{
+	color: white;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+}
+.prijava
+{
+	margin-top: 20vmin;
+	height: 50vmin;
+	width: 90vmin;
+	text-align: center;
+}
+.prijava h1
+{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: white;
+	font-size: 7vmin;
+}
+.prijava input
+{
+	background-color: #222;
+	color: white;
+	margin: 0;
+	margin-top: 2%;
+	padding: 2%;
+	width: 95%;
+	font-size: 3vmin;
+	border-radius: 1vmin;
+	border: 0.3vmin solid #ddd;
+	text-align: center;
+}
+.prijava button
+{
+	width: 100%;
+	margin: 0;
+	margin-top: 4%;
+	padding: 4%;
+	background: linear-gradient(#4d94ff, #0047b3);
+	background: -webkit-linear-gradient(#4d94ff, #0047b3);
+	background: -o-linear-gradient(#4d94ff, #0047b3);
+	background: -moz-linear-gradient(#4d94ff, #0047b3);	
+	font-size: 4vmin;
+	color: white;
+	border: 0.25vmin outset #4d94ff;
+	border-radius: 1vmin;
+	cursor: pointer;
+}
+.prijava button:hover
+{
+	background: linear-gradient(#3385ff, #003d99);
+	background: -webkit-linear-gradient(#3385ff, #003d99);
+	background: -o-linear-gradient(#3385ff, #003d99);
+	background: -moz-linear-gradient(#3385ff, #003d99);	
+	border: 0.25vmin inset #003d99;
+}
+.prijava a
+{
+	width: 92%;
+	text-decoration: none;
+	color: #fff;	
+	background-color: #222;
+	border: 0.25vmin outset #222;
+	border-radius: 1vmin;
+	margin-top: 2%;
+	padding: 4%;
+	font-size: 3vmin;
+	float: right;
+
+}
+.prijava a:hover
+{
+	background: #111;
+	border: 0.25vmin inset #222;
+}
+.prijava_poruka
+{
+	position: absolute;
+	bottom: 0;
+	color: white;
+	width: 90vmin;
+	margin: 2vmin;
+	padding: 3vmin;
+	font-size: 4vmin;
+	text-shadow: 0.5vmin 0.5vmin 0.5vmin black;
+	text-align: center;
+	border-radius: 1vmin;
+	border: 0.3vmin solid #666;
+	opacity: 0.7;
+}
+.nazad_na_prijavu
+{
+	position: absolute;
+	font-size: 4vmin;
+	padding: 1% 2%;
+	margin: 1%;
+	text-decoration: none;
+	color: #fff;	
+	background-color: #222;
+	top: 0;
+	left: 0;
+	border: 0.25vmin outset #222;
+	border-radius: 1vmin;
+}
+.nazad_na_prijavu:hover
+{
+	background: #111;
+	border: 0.25vmin inset #222;
+}
+.greska404
+{
+	color: white;
+	background-color: #990000;
+	margin: 15% auto;
+	width: 50%;
+	padding: 5%;
+	font-size: 4vmin;
+	text-align: center;
+	text-shadow: 0.5vmin 0.5vmin 0.5vmin black;
+	border-radius: 1vmin;
+	border: 0.3vmin solid #666;
+}.greska404-mobilni
+{
+	color: white;
+	background-color: #990000;
+	margin: 60% 20%;
+	width: 50%;
+	padding: 5%;
+	font-size: 4vmin;
+	text-align: center;
+	text-shadow: 0.5vmin 0.5vmin 0.5vmin black;
+	border-radius: 1vmin;
+	border: 0.3vmin solid #666;
+}
+.prijava textarea
+{
+	resize: none; 
+	width: 96%;
+	margin: 0;
+	margin-top: 2%;
+	padding: 1.5%;
+	font-size: 1vw;
+	border-radius: 1vmin;
+	border: 0.3vmin solid #666;
+	background-color: #222;
+	color: white;
+}
+.meni
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0.5%;
+	padding: 0.10% 1%;
+	background: -webkit-linear-gradient(#3385ff, #003d99);
+    background: -o-linear-gradient(#3385ff, #003d99);
+    background: -moz-linear-gradient(#3385ff, #003d99);
+	background: linear-gradient(#3385ff, #003d99);
+	color: #fff;
+	border: 0.25vmin outset #0047b3;
+	border-radius: 1vmin;
+	cursor: pointer;
+}
+.meni:hover
+{
+	background: -webkit-linear-gradient(#3385ff, #003d99);
+	background: -o-linear-gradient(#3385ff, #003d99);
+    background: -moz-linear-gradient(#3385ff, #003d99);
+	background: linear-gradient(#3385ff, #003d99);
+	border: 0.25vmin inset #003d99;
+}
+.meni-mobilni
+{
+	background: #222;
+	color: #fff;
+	padding: 0.5% 2%;
+	border: 0.25vh solid white;
+	border-radius: 0.5vh;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	margin: 0.5vh;
+}
+nav
+{
+	z-index: 10;
+	background: #222;
+    width: 98%;
+	display: none;
+	padding: 1%;
+	-webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+}
+#meni-mobilni
+{
+	z-index: 10;
+	background: #222;
+    width: 98%;
+	display: none;
+	padding: 1%;
+	-webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+}
+nav a
+{
+	text-decoration: none;
+	color: #fff;
+}
+nav a h2
+{
+	border: 1vmin solid black;
+	padding: 1%;
+	margin: 1%;
+	background-color: #222;
+	opacity: 1.1;
+}
+nav a h1
+{
+	border: 1vmin solid black;
+	padding: 5%;
+	margin: 5%;
+}
+#grafik
+{
+	width: 100%;
+	height: 41em;
+}
+#grafik-mobilni
+{
+	width: 100%;
+	height: 98.5em;
+}
+.displej
+{
+	background-color: #0047b3;
+	border: 2vh inset #222;
+	font-family: 'digital-7-mono';
+	height: 100%;
+}
+.displej p
+{
+	text-align: center; 
+	letter-spacing: 0.25vmin; 
+	font-size: 4.5vmin;
+	padding: 2vh;
+	height: 40%;
+}
+.vreme_merenja
+{
+	padding: 2%;
+	color: white;
+	background-color: #111;
+	text-align: center;
+	left: 0;
+}
+.nadmorska_visina
+{
+	position: fixed;
+	margin: 2%;
+	padding: 2%;
+	color: white;
+	background-color: #222;
+	text-align: center;
+	right: 0;
+}
