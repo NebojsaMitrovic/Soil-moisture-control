@@ -1,2 +1,2 @@
 # Soil-moisture-control
-Soil moisture control system implmented wiht Arduino
+Soil moisture control system implemented with Arduino
